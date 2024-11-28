@@ -38,7 +38,7 @@ def takecommand():
         speak("say that again please...")
         return "none"
     return query
-#function to wish us a gm,etc
+#function to wish us gm,etc
 def wish():
     hour=int(datetime.datetime.now().hour)
     tt =time.strftime("%I:%M %p")
